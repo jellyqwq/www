@@ -1,0 +1,26 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Firefly.moc3",
+		"Textures": [
+			"Firefly.4096/texture_00.png"
+		],
+		"Physics": "Firefly.physics3.json",
+		"DisplayInfo": "Firefly.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		}
+	]
+}
